@@ -1,0 +1,66 @@
+[
+  {
+    "repository": "agid-americas-north-america-index",
+    "url": "https://github.com/dawnportinfo-design/agid-americas-north-america-index",
+    "region": "north_america",
+    "kind": "region-index",
+    "stage": "wave-0-index",
+    "status": "created-in-wave-0-index"
+  },
+  {
+    "repository": "agid-americas-central-america-index",
+    "url": "https://github.com/dawnportinfo-design/agid-americas-central-america-index",
+    "region": "central_america",
+    "kind": "region-index",
+    "stage": "wave-0-index",
+    "status": "created-in-wave-0-index"
+  },
+  {
+    "repository": "agid-americas-north-atlantic-territories-index",
+    "url": "https://github.com/dawnportinfo-design/agid-americas-north-atlantic-territories-index",
+    "region": "north_atlantic_territories",
+    "kind": "region-index",
+    "stage": "wave-0-index",
+    "status": "created-in-wave-0-index"
+  },
+  {
+    "repository": "agid-americas-caribbean-index",
+    "url": "https://github.com/dawnportinfo-design/agid-americas-caribbean-index",
+    "region": "caribbean",
+    "kind": "region-index",
+    "stage": "wave-0-index",
+    "status": "created-in-wave-0-index"
+  },
+  {
+    "repository": "agid-americas-us-territories-index",
+    "url": "https://github.com/dawnportinfo-design/agid-americas-us-territories-index",
+    "region": "us_territories",
+    "kind": "region-index",
+    "stage": "wave-0-index",
+    "status": "created-in-wave-0-index"
+  },
+  {
+    "repository": "agid-americas-south-america-index",
+    "url": "https://github.com/dawnportinfo-design/agid-americas-south-america-index",
+    "region": "south_america",
+    "kind": "region-index",
+    "stage": "wave-0-index",
+    "status": "created-in-wave-0-index"
+  },
+  {
+    "repository": "agid-americas-chile-territories-index",
+    "url": "https://github.com/dawnportinfo-design/agid-americas-chile-territories-index",
+    "region": "chile_territories",
+    "kind": "region-index",
+    "stage": "wave-0-index",
+    "status": "created-in-wave-0-index"
+  },
+  {
+    "repository": "agid-americas-french-oceanic-territories-index",
+    "url": "https://github.com/dawnportinfo-design/agid-americas-french-oceanic-territories-index",
+    "region": "french_oceanic_territories",
+    "kind": "region-index",
+    "stage": "wave-0-index",
+    "status": "created-in-wave-0-index"
+  }
+]

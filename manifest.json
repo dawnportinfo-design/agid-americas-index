@@ -1,0 +1,30 @@
+{
+  "version": "agid-americas-index-manifest-v1",
+  "repository": "agid-americas-index",
+  "owner": "dawnportinfo-design",
+  "kind": "continent-index",
+  "status": "completed-index-seed",
+  "description": "AGID Americas index for North America, Central America, the Caribbean, South America, territories, and staged country packs.",
+  "continent": "americas",
+  "storesPersonalAddressMaterial": false,
+  "regionRepositories": [
+    "agid-americas-north-america-index",
+    "agid-americas-central-america-index",
+    "agid-americas-north-atlantic-territories-index",
+    "agid-americas-caribbean-index",
+    "agid-americas-us-territories-index",
+    "agid-americas-south-america-index",
+    "agid-americas-chile-territories-index",
+    "agid-americas-french-oceanic-territories-index"
+  ],
+  "logicalPlanSummary": {
+    "continent": "americas",
+    "rootRepository": "agid-americas-index",
+    "regionRepositories": 8,
+    "countryParentRepositories": 60,
+    "childLogicalRepositories": 271,
+    "githubCreateNow": 9,
+    "totalLogicalRepositories": 340
+  },
+  "defaultBranch": "main"
+}

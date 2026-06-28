@@ -1,0 +1,10 @@
+{
+  "name": "agid-americas-index",
+  "private": true,
+  "version": "0.1.0",
+  "description": "AGID Americas index for North America, Central America, the Caribbean, South America, territories, and staged country packs.",
+  "license": "MIT",
+  "scripts": {
+    "test": "node scripts/validate.js"
+  }
+}

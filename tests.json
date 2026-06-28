@@ -1,0 +1,18 @@
+{
+  "version": "agid-americas-tests-v1",
+  "fixturesUseSyntheticDataOnly": true,
+  "conformance": [
+    {
+      "id": "manifest-loads",
+      "expected": "pass"
+    },
+    {
+      "id": "registry-loads",
+      "expected": "pass"
+    },
+    {
+      "id": "no-private-material",
+      "expected": "pass"
+    }
+  ]
+}
