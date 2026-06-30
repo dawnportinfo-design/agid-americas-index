@@ -1,30 +1,78 @@
 {
-  "version": "agid-americas-index-manifest-v1",
+  "schemaVersion": "agid-index-repository-manifest-v0.1",
   "repository": "agid-americas-index",
-  "owner": "dawnportinfo-design",
   "kind": "continent-index",
-  "status": "completed-index-seed",
-  "description": "AGID Americas index for North America, Central America, the Caribbean, South America, territories, and staged country packs.",
-  "continent": "americas",
-  "storesPersonalAddressMaterial": false,
-  "regionRepositories": [
-    "agid-americas-north-america-index",
-    "agid-americas-central-america-index",
-    "agid-americas-north-atlantic-territories-index",
-    "agid-americas-caribbean-index",
-    "agid-americas-us-territories-index",
-    "agid-americas-south-america-index",
-    "agid-americas-chile-territories-index",
-    "agid-americas-french-oceanic-territories-index"
-  ],
-  "logicalPlanSummary": {
-    "continent": "americas",
-    "rootRepository": "agid-americas-index",
-    "regionRepositories": 8,
-    "countryParentRepositories": 60,
-    "childLogicalRepositories": 271,
-    "githubCreateNow": 9,
-    "totalLogicalRepositories": 340
+  "owner": "dawnportinfo-design",
+  "canonicalContinent": "americas",
+  "region": null,
+  "stage": "wave-0-index",
+  "indexReady": true,
+  "sourcePlanVersion": "agid-americas-repository-creation-plan-v1",
+  "generatedAt": "2026-06-28T12:54:28.908Z",
+  "privacy": {
+    "rawAddressStorage": false,
+    "recipientStorage": false,
+    "precisePrivateCoordinates": false,
+    "witnessMaterial": false,
+    "privateKeys": false,
+    "carrierOperationalData": false
   },
-  "defaultBranch": "main"
+  "relatedRepositories": [
+    {
+      "repository": "agid-americas-north-america-index",
+      "kind": "region-index",
+      "countryCode": null,
+      "countryName": null,
+      "stage": "wave-0-index"
+    },
+    {
+      "repository": "agid-americas-central-america-index",
+      "kind": "region-index",
+      "countryCode": null,
+      "countryName": null,
+      "stage": "wave-0-index"
+    },
+    {
+      "repository": "agid-americas-north-atlantic-territories-index",
+      "kind": "region-index",
+      "countryCode": null,
+      "countryName": null,
+      "stage": "wave-0-index"
+    },
+    {
+      "repository": "agid-americas-caribbean-index",
+      "kind": "region-index",
+      "countryCode": null,
+      "countryName": null,
+      "stage": "wave-0-index"
+    },
+    {
+      "repository": "agid-americas-us-territories-index",
+      "kind": "region-index",
+      "countryCode": null,
+      "countryName": null,
+      "stage": "wave-0-index"
+    },
+    {
+      "repository": "agid-americas-south-america-index",
+      "kind": "region-index",
+      "countryCode": null,
+      "countryName": null,
+      "stage": "wave-0-index"
+    },
+    {
+      "repository": "agid-americas-chile-territories-index",
+      "kind": "region-index",
+      "countryCode": null,
+      "countryName": null,
+      "stage": "wave-0-index"
+    },
+    {
+      "repository": "agid-americas-french-oceanic-territories-index",
+      "kind": "region-index",
+      "countryCode": null,
+      "countryName": null,
+      "stage": "wave-0-index"
+    }
+  ]
 }

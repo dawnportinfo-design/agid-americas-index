@@ -1,34 +1,70 @@
 # AGID Americas Index
 
-Completed continent index repository for AGID Americas.
+AGID Americas index for North America, Central America, the Caribbean, South America, territories, and staged country packs.
 
-This repository coordinates North America, Central America, the Caribbean, South America, overseas territories, autonomous regions, and planned country/child repositories for the Americas. It is a completed index repo, not a mass of empty country repositories.
+## Status
+
+- Owner: `dawnportinfo-design`
+- Repository: `agid-americas-index`
+- Stage: `wave-0-index`
+- Index readiness: `index-ready`
+- Country data readiness: `plan-only`
+- Privacy: no raw personal address, recipient, precise private coordinate, witness, or private-key material.
 
 ## Scope
 
-- Root repository: `agid-americas-index`
-- Region index repositories: 8
-- Country parent repositories in the logical plan: 60
-- Child logical repositories in the plan: 271
-- Total logical repositories: 340
+The Americas index coordinates North America, Central America, the Caribbean, South America, territories, and staged country packs.
 
-## Physical Creation Policy
+This repository is an AGID coordination index. It stores repository pointers,
+safe source policy, postal status, quality gates, conformance status, and
+special-region display policy for Americas address infrastructure.
 
-Only wave-0 index repositories are physically created now. Country parents and children remain in the registry plan until they have safe skeleton content, maintainers, data source policy, quality gates, and a reason to split.
+It does not store private delivery addresses, recipient records, precise private
+coordinates, witness material, private keys, large GIS extracts, map tiles,
+search indexes, or carrier operational datasets.
 
-## Region Index Repositories
+## Related Repositories
 
-- [agid-americas-north-america-index](https://github.com/dawnportinfo-design/agid-americas-north-america-index) - North America
-- [agid-americas-central-america-index](https://github.com/dawnportinfo-design/agid-americas-central-america-index) - Central America
-- [agid-americas-north-atlantic-territories-index](https://github.com/dawnportinfo-design/agid-americas-north-atlantic-territories-index) - North Atlantic Territories
-- [agid-americas-caribbean-index](https://github.com/dawnportinfo-design/agid-americas-caribbean-index) - Caribbean
-- [agid-americas-us-territories-index](https://github.com/dawnportinfo-design/agid-americas-us-territories-index) - Us Territories
-- [agid-americas-south-america-index](https://github.com/dawnportinfo-design/agid-americas-south-america-index) - South America
-- [agid-americas-chile-territories-index](https://github.com/dawnportinfo-design/agid-americas-chile-territories-index) - Chile Territories
-- [agid-americas-french-oceanic-territories-index](https://github.com/dawnportinfo-design/agid-americas-french-oceanic-territories-index) - French Oceanic Territories
+- `agid-americas-north-america-index`
+- `agid-americas-central-america-index`
+- `agid-americas-north-atlantic-territories-index`
+- `agid-americas-caribbean-index`
+- `agid-americas-us-territories-index`
+- `agid-americas-south-america-index`
+- `agid-americas-chile-territories-index`
+- `agid-americas-french-oceanic-territories-index`
 
-## Registry
+## Data Boundary
 
-- `registry/agid-americas-repository-creation-plan.json` - full Americas logical repository plan.
-- `registry/region-indexes.json` - wave-0 physical region index list.
-- `registry/repository-summary.json` - counts and staged creation status.
+GitHub may contain synthetic fixtures, rules, manifests, source notes, postal
+status, repository placement, and quality gate metadata. Large geography,
+building polygons, hydrographic datasets, OSM/Overture extracts, routing
+networks, and generated caches must stay in external content-addressed packs.
+
+## Country And Territory Creation Policy
+
+Physical country repositories are created only when they have enough content to
+be useful: README, manifest, postal status, source policy, quality gates,
+synthetic tests, no-raw-address guardrails, and a maintainer path. Planned child
+repositories stay in this index until data volume, ownership, or pull-request
+pressure justifies a split.
+
+## Postal-Weak And Island Policy
+
+Caribbean and Latin American packs can include postal-code, postal-weak,
+no-postal-code, island, ferry, border, disaster, and informal-settlement modes.
+Those modes must be represented as technical address infrastructure and never
+as publication of personal addresses.
+
+## Special Region Policy
+
+AGID repository placement is a technical address-data organization rule. It does
+not imply sovereignty, recognition, or territorial ownership. Disputed,
+overseas, de facto, maritime, island, or special regions must carry explicit
+source, license, canonical region, and display policy before data publication.
+
+## Validation
+
+The repository includes JSON manifests and a lightweight GitHub Actions workflow
+that validates JSON files. Public release content must pass AGID no-raw-address
+review before data publication.
